@@ -1,0 +1,4 @@
+
+turned_away_cuddles = {
+	pop_happiness = -0.10
+}
