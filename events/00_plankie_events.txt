@@ -7,6 +7,8 @@ country_event = {
 	id = plank_fox.1
 	hide_window = yes
 
+	fire_only_once = yes
+
 	trigger = {
 		always = no
 		# num_owned_planets > 5
@@ -40,9 +42,15 @@ country_event = {
 	}
 	option = {
 		name = plank_fox.2.a
+		ai_chance = {
+			factor = 0
+		}
 	}
 	option = {
 		name = plank_fox.2.b
+		ai_chance = {
+			factor = 1
+		}
 		add_modifier = { modifier = "turned_away_cuddles" days = 365 }
 	}
 }
